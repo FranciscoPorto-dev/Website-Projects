@@ -1,0 +1,119 @@
+body{
+    background-image: linear-gradient(black, #2a3f45, #A5C9CA, #E7F6F2);
+}
+
+
+header{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 6vw;
+    color: #FFF7D4;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+
+}
+
+.icon{
+    font-size: 40px;
+    filter: invert(50%) sepia(15%) saturate(560%) hue-rotate(105deg) brightness(91%) contrast(98%); /* this fiter is to change the color of the icons since I didn't find any other way*/
+}
+
+
+
+.All_blocks{
+    display: flex;
+    min-height: 150px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    column-gap: 20px;
+   
+    
+}
+
+.FirstBlock{
+    background-image: radial-gradient(#E7F6F2, #607274);
+    border-radius: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-left: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    box-shadow: 3px 10px;
+    
+  
+}
+
+
+.SecondBlock{
+    text-align: center;
+    background-image: radial-gradient(#E7F6F2, #607274);
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    box-shadow: 3px 10px;
+}
+
+.ThirdBlock{
+    text-align: center;
+    background-image: radial-gradient(#E7F6F2, #607274);
+    border-radius: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 3px 10px;
+    margin-right: 0.5rem;
+}
+
+.contact{
+    background-image: radial-gradient(#E7F6F2, #607274);
+    border-radius: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    overflow-x: scroll;
+    text-align: center;
+    display: flex;
+}
+
+.phone{
+    font-weight: 900;
+    margin-right: 5rem;
+    margin-left: 8rem;
+}
+
+.email{
+    font-weight: 900;
+    margin-right: 5rem;
+    margin-left: 10px;
+}
+
+.name{
+    font-weight: 900;
+    margin-left: 10px;
+    margin-right: 8rem;
+}
+
+.solid_phone{
+    filter: invert(9%) sepia(81%) saturate(3219%) hue-rotate(224deg) brightness(14%) contrast(34%);
+    margin-top: 5px;
+    font-size: 130%;
+}
+
+.solid_g{
+    filter: invert(9%) sepia(81%) saturate(3219%) hue-rotate(224deg) brightness(14%) contrast(34%);
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.solid_human{
+    filter: invert(9%) sepia(81%) saturate(3219%) hue-rotate(224deg) brightness(14%) contrast(34%);
+    margin-top: 5px;
+    font-size: 30px;
+}
