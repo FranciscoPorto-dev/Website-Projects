@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/coffee.jepg.jpeg) ;
+    background-size: cover;
+    padding: 10px;
+    background-position: center center;
+    flex-direction: column;
+}
+
+.timer{
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    background: rgba(266, 255, 255, 0.5)
+}
+
+.timer p{
+    margin: 50px;
+    font-size: 50px;
+    color: #3C3633;
+}
+
+.timer span{
+    color: #503C3C;
+    font-size: 30px;
+}
+
+.button{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.button button{
+    color: #503C3C;
+    font-size: 120%;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgba(266, 255, 255, 0.5);
+    margin: 20px;
+}
+
+.button input{
+    color: #503C3C;
+    font-size: 120%;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgba(266, 255, 255, 0.5);
+    margin: 20px;
+}
